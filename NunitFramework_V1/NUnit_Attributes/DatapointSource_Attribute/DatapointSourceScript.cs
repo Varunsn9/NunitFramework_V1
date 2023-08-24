@@ -35,7 +35,7 @@ namespace NunitFramework_V1.NUnit_Attributes.DatapointSource_Attribute
         [Theory]
         public void DatapointScript(string collections)
         {
-            Console.WriteLine(collections);
+            TestContext.WriteLine(collections);
         }
     }
 }

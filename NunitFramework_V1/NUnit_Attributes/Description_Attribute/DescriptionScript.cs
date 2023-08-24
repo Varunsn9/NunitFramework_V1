@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+[assembly: Description("Utilizing Description for Assembly")]
+//description attribute can be utilized in assembly level 
 
 namespace NunitFramework_V1.NUnit_Attributes.Description_Attribute
 {
@@ -19,13 +21,13 @@ namespace NunitFramework_V1.NUnit_Attributes.Description_Attribute
         //Description Attribute can be utilized for Test Method
         public void TestDescription()
         {
-            Console.WriteLine(" TestMethod");
+            TestContext.WriteLine(" TestMethod");
         }
         [Test, Description("Utilizing Description for TestMethod")]
         //Description Attribute can be utilized for Test Method
         public void TestDescription1()
         {
-            Console.WriteLine(" TestMethod");
+            TestContext.WriteLine(" TestMethod");
         }
     }
 }
