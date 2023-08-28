@@ -18,7 +18,7 @@ namespace NunitFramework_V1.NUnit_Attributes.Property_Attribute
     {
         public SeverityAttribute(Severitylevel severitylevel) : base()
         {
-
+            Console.WriteLine(severitylevel.ToString());
         }
     }
     public enum Severitylevel
@@ -33,6 +33,7 @@ namespace NunitFramework_V1.NUnit_Attributes.Property_Attribute
 
     public class PropertyScript
     {
+        [Test]
         [Severity(Severitylevel.Minor)]
         [Category("Property")]
         public void PropertyTest()
