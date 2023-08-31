@@ -1,0 +1,1 @@
+nunit3-console "path of project dll" --testlist="path of the file.txt"
