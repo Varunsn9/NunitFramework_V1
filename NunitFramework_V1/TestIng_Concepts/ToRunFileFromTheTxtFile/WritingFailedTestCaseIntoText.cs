@@ -16,7 +16,7 @@ namespace NunitFramework_V1.TestIng_Concepts.ToRunFileFromTheTxtFile
         [OneTimeSetUp]
         public void OTSU()
         {
-            string txt = "C:\\NewDrive\\VisualStudioRepo\\NunitFramework_V1\\NunitFramework_V1\\TestIng_Concepts\\ToRunFileFromTheTxtFile\\failedScript.txt";
+            string txt = $"C:\\NewDrive\\VisualStudioRepo\\NunitFramework_V1\\NunitFramework_V1\\TestIng_Concepts\\ToRunFileFromTheTxtFile\\{DateTime.Now.Hour}_{DateTime.Now.Minute}_FailedScript.txt";
             fs = new StreamWriter(txt);
             fs.WriteLine("# My Test List");
         }

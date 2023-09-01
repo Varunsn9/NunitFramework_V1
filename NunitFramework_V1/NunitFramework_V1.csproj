@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <Folder Include="AssertionAndAssumption\" />
-    <Folder Include="TestIng_Concepts\FetchingDataFromResult\" />
   </ItemGroup>
 
 </Project>
