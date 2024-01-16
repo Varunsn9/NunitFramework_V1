@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//[assembly:Parallelizable(ParallelScope.Fixtures)]
+[assembly:Parallelizable(ParallelScope.Fixtures)]
 //all the fixture inside the project will be executed parallel
 namespace NunitFramework_V1.NUnit_Attributes.Parallelizable_Attribute
 {
